@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sulthan</title>
+    <link rel="stylesheet" href="sulthan.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <a class="avo" href="">Avoskin.</a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">About us</a></li>
+            <li><a href="#tutors">Product</a></li>
+            <li><a href="#partners">Partners</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <button class="tbl-biru" onclick="openForm()">Sign Up</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1>Login</h1>
+        <!-- <div class="form-input"> -->
+          <label style="max-height: 10px" for="email">Email</label>
+          <input
+            type="text"
+            placeholder="Enter Email"
+            name="email"
+            required
+          />
+        <!-- </div>
+        <div class="form-input"> -->
+          <label for="psw">Password</label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+        <!-- </div> -->
+        <button type="submit" class="btn">Login</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">
+          Close
+        </button>
+      </form>
+      <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+      </script>
+    </div>
+
+    <div class="wrapper">
+      <!--untuk home-->
+      <section id="home">
+        <div class="column">
+          <div class="shadow_">
+            <!--coba2 kasih shadow di grid-->
+            <img
+              class="img"
+              src="https://img.freepik.com/free-photo/organic-cosmetic-product-with-dreamy-aesthetic-fresh-background_23-2151382827.jpg?t=st=1724173359~exp=1724176959~hmac=8c3eb9cf6c684aa8ee7f4f1314edc8df8db4e9bfb569c947aa5b5d3e6e080741&w=350"
+            />
+          </div>
+          <!--paragraf benerin-->
+          <div class="kolom">
+            <div style="padding-left: 5px">
+              <h2>
+                Providing Quality and Innovative Products with Strong
+                Sustainability Value
+              </h2>
+              <p class="deskripsi">
+                Our Principles : People, Planet, and Profit
+              </p>
+              <p class="deskripsi">People:</p>
+              <div
+                style="
+                  text-align: justify;
+                  text-justify: inter-word;
+                  text-indent: 22px;
+                "
+              >
+                <p>
+                  Product ingredients are made with the sustainability of nature
+                  in mind Using reusable packaging Initiating beauty empties
+                  digital takeback program with Waste4Change and Collaborating
+                  with environmental conservation organization like BOS
+                  Fondation and Lindungi Hutan.
+                </p>
+              </div>
+              <p class="deskripsi">Planet:</p>
+              <div
+                style="
+                  text-align: justify;
+                  text-justify: inter-word;
+                  text-indent: 22px;
+                "
+              >
+                <p>
+                  Developing community through RUBI to empower women in a
+                  sustainable manner Worked together with Indonesian community
+                  such as Torajamelo socio-brand who supports the development of
+                  women's lives in Mamasa, Lembata and Adonara.
+                </p>
+              </div>
+              <p class="deskripsi">Profit:</p>
+              <div
+                style="
+                  text-align: justify;
+                  text-justify: inter-word;
+                  text-indent: 22px;
+                "
+              >
+                <p>
+                  Collaborating with non profit organization like PUKA, local
+                  businesses that focus on crafting while providing creative
+                  media for the education of children with special needs. Fair
+                  trade system with our upstream to downstream partners. We make
+                  this effort to also make products at fair prices so that all
+                  sustainable activities that we carry out can also run
+                  sustainably.
+                </p>
+              </div>
+
+              <p><a href="" class="tbl-pink">Pelajari Lebih Lanjut</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--untuk courses-->
+      <section id="courses">
+        <div class="kolom">
+          <p class="deskripsi">You Will Need This</p>
+          <h2>Make Your skin Smoother With Avoskin!</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+            minus enim magnam repellat dolor esse, molestias, eum architecto
+            fugit earum rem vitae eius unde ad reprehenderit quas ullam velit
+            saepe. Voluptatem odit optio totam quisquam nam officia fugit
+            doloribus ex. Numquam tempore consequuntur eos harum obcaecati
+            corrupti adipisci iusto qui.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            praesentium adipisci vel ipsa iure! Natus nihil, non corrupti
+            temporibus aspernatur velit esse exercitationem eos ratione rerum
+            unde alias. Odio repellendus ipsam ratione. Explicabo, fugit? Ex
+            tempora assumenda mollitia vero corporis eaque quidem soluta nam,
+            veritatis magni perspiciatis excepturi natus asperiores.
+          </p>
+          <p><a href="" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+        </div>
+        <div class="shadow">
+          <img
+            src="https://img.freepik.com/free-photo/medium-shot-woman-living-healthy-lifestyle_23-2151201925.jpg?t=st=1724179803~exp=1724183403~hmac=7796cd8d95e6c13edd01ca312d15f42589e154ad973ac3eb96723d22f05ab9c0&w=300"
+          />
+        </div>
+      </section>
+
+      <!--untuk tutor-->
+      <section id="tutors">
+        <div class="tengah">
+          <div class="kolom">
+            <h2 class="serum">Customer Favorite</h2>
+            <p class="p_">
+              Avoskin's best products formulated by natural ingredients that
+              provides the best benefit for your skin.
+            </p>
+          </div>
+
+          <div class="tutor-list">
+            <div class="kartu-tutor">
+              <div class="tejo">
+                <img
+                  class="popup"
+                  src="https://nihonmart.id/pub/media/catalog/product/cache/8a3fa81d90974d9a7299f2eff309979f/m/i/miraculous_acne_solution_micro_serum_20_ml_-min.png"
+                />
+              </div>
+              <p class="sulthan">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio, doloremque.
+              </p>
+            </div>
+
+            <div class="kartu-tutor">
+              <div class="tejo">
+                <img
+                  class="popup"
+                  src="https://d2wetaaf29185a.cloudfront.net/webp/m0cha-uuxahp2xiP/uploads/product/22803/22803_1643344467.7663.jpg.webp"
+                />
+              </div>
+              <p class="sulthan">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio, doloremque.
+              </p>
+            </div>
+
+            <div class="kartu-tutor">
+              <div class="tejo">
+                <img
+                  class="popup"
+                  src="https://www.beautyhaul.com/assets/uploads/products/thumbs/800x800/AVOSKIN-YSB_Serum_Kojic_Acid_1%25_%2B_Glycolic_Acid_%2B_Soybean_%2B_Licorice_%281%29.png"
+                />
+              </div>
+              <p class="sulthan">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio, doloremque.
+              </p>
+            </div>
+
+            <div class="kartu-tutor">
+              <div class="tejo">
+                <img
+                  class="popup"
+                  src="https://www.beautyhaul.com/assets/uploads/products/thumbs/800x800/AVOSKIN_Miraculous_Dark_Spots_Solution_Ampoule_30ml.png"
+                />
+              </div>
+              <p class="sulthan">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio, doloremque.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper">
+          <h2 class="h2_">The Story Behind of Our Skincare Series for You</h2>
+          <p class="p_">We create products that fit your needs.</p>
+
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img
+                src="https://www.avoskinbeauty.com/_next/image?url=https%3A%2F%2Favoskin-2023.s3.ap-southeast-3.amazonaws.com%2Fpage-image%2F1695020119216-T8UU7UD7.jpeg&w=1920&q=75"
+                style="width: 100%"
+              />
+              <div class="text">Caption Text</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img
+                src="https://www.avoskinbeauty.com/_next/image?url=https%3A%2F%2Favoskin-2023.s3.ap-southeast-3.amazonaws.com%2Fpage-image%2F1695020132502-oyt97uxG.jpeg&w=1920&q=75"
+                style="width: 100%"
+              />
+              <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img
+                src="https://www.avoskinbeauty.com/_next/image?url=https%3A%2F%2Favoskin-2023.s3.ap-southeast-3.amazonaws.com%2Fpage-image%2F1695697956793-jQpzs6BC.jpeg&w=1920&q=75"
+                style="width: 100%"
+              />
+              <div class="text">Caption Three</div>
+            </div>
+          </div>
+
+          <div style="text-align: center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+        <script>
+          let slideIndex = 0;
+          showSlides();
+
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+              slideIndex = 1;
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+          }
+        </script>
+      </section>
+
+      <!--untuk partners-->
+      <section id="partners">
+        <div class="tengah">
+          <div class="kolom">
+            <p class="deskripsi">Our Top Partners</p>
+            <h2>Partners</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Laboriosam, nihil!
+            </p>
+          </div>
+
+          <div class="partner-list">
+            <div class="kartu-partner">
+              <div
+                style="
+                  position: relative;
+                  width: 60px;
+                  height: 60px;
+                  margin: auto;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 5px;
+                  "
+                >
+                  <img
+                    src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338429_960_720.png"
+                  />
+                  TikTok
+                </div>
+              </div>
+              <div
+                style="
+                  position: relative;
+                  width: 60px;
+                  height: 60px;
+                  margin: auto;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 5px;
+                  "
+                >
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+                  />
+                  Instagram
+                </div>
+              </div>
+              <div
+                style="
+                  position: relative;
+                  width: 60px;
+                  height: 60px;
+                  margin: auto;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 5px;
+                  "
+                >
+                  <img
+                    src="https://img.freepik.com/premium-vector/new-twitter-x-logo-vector-twitter-x-sign-vector_952796-6.jpg"
+                  />
+                  X
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--footer-section masih berantakan-->
+    <div id="contact">
+      <div class="wrapper">
+        <div class="footer">
+          <div class="footer-section">
+            <h3>Avoskin.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+              sapiente.
+            </p>
+            <p>asdasdasd</p>
+          </div>
+          <div class="footer-section">
+            <h3>About</h3>
+            <p>
+              Providing Quality and Innovative Products with Strong
+              Sustainability Value
+            </p>
+            <p>Our Principles : People, Planet, and Profit</p>
+          </div>
+          <div class="footer-section">
+            <h3>Contact</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam, necessitatibus!
+            </p>
+            <p>kode Pos: 15810</p>
+          </div>
+          <div class="footer-section">
+            <h3>Social</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+              sapiente.
+            </p>
+            <p>Learn more about Avoskin culture at: <b>AvoskinOfficial</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="copyright">
+      <div class="wrapper">
+        &copy; 2024 <b>AvoskinOfficial</b> All right Reserved
+      </div>
+    </div>
+  </body>
+</html>
